@@ -1,6 +1,6 @@
 # Document Scan
 
-Using OpenCV with Pytesseract, this script opens a local image in your script folder and reads the text in the image and outputs it as text. This is designed to work specifically with documents as it searches the image for a document, then reads the text inside it.
+Using OpenCV with Pytesseract, this script opens a local image in your script folder and reads the text in the image and outputs it as text. This is designed to work specifically with documents inside of an image, as it searches the image for a document, then reads the text inside it.
 
 The script does the following things:
 1. Opens the image and pre-processes it to find the edges of the document in the photo.
@@ -9,10 +9,10 @@ The script does the following things:
 4. Using Pytesseract, the text from the scanned document is read and converted into text for an output
 
 Future Changes
-- Apply more sophhisticated filter to the scanned image to assist in text recognition
+- Apply more sophhisticated filtering to the scanned image to assist in text recognition.
 
 How To Use
-- A screenshot for a PDF has been included to test the script on
+- A screenshot for a PDF has been included to test the script
 - The script looks for a folder named "input.png" to be processed
-- Image processing displayed as the processes take place
-- The script outputs text in the console for the result
+- The images of the processing steps are displayed as the steps take place
+- The script outputs text in the console for the resulting output
