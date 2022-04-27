@@ -10,3 +10,9 @@ The script does the following things:
 
 Future Changes
 - Apply more sophhisticated filter to the scanned image to assist in text recognition
+
+How To Use
+- A screenshot for a PDF has been included to test the script on
+- The script looks for a folder named "input.png" to be processed
+- Image processing displayed as the processes take place
+- The script outputs text in the console for the result
